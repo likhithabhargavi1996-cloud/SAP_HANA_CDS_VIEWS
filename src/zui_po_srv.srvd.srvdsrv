@@ -1,0 +1,8 @@
+@EndUserText.label: 'PO Service Definition'
+define service ZUI_PO_SRV {
+  expose ZV_PO_HEAD;
+  expose ZV_PO_ITEM;
+  expose Z_I_PO_Aggregate;
+  expose Z_I_PO_PARAM;
+  expose Z_I_PO_STATUS;
+}
